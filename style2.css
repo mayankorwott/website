@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(img/bgws2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* opacity: 0.9; */
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    /* margin: auto; */
+    /* position: sticky; */
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 30px;
+    float: left;
+    padding-top: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+
+}
+.menu{
+    width: 100px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    float: right;
+    margin-top: 21px;
+    margin-right: 20px;
+}
+.search input{
+    border-radius: 6px;
+    font-size: 18px;
+    background: none;
+    border-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 4px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content p{
+    /* padding-left: 20px; */
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    /* padding-left: 20px; */
+    margin-top: 12%;
+    letter-spacing: 10px;
+}
+.content span{
+    color: orange;
+}
+.button{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    /* margin-left: 20px; */
+    font-size: 18px;
+    border-radius: 5px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: rgb(246, 201, 183);
+    
+}
+
+.forms{
+    border: 2px solid orange;
+    position: absolute;
+    top: 10%;
+    left: 67%;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.forms h1{
+    
+    font-family: sans-serif;
+    margin: 16px;
+    padding: 10px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    COLOR: orange;
+}
+
+.box input{
+    margin: 10px;
+    font-size: 18px;
+    width: 75%;
+    background: none;
+    color: white;
+    outline: none;
+    font-family: cursive;
+
+    
+}
+.box input ::placeholder{
+    font-family: Arial;
+}
+
+.box{
+    margin-left: 26px;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 130px;
+    margin-top: 23px;
+    background-color: orange;
+    color: black;
+    /* opacity: 0.5; */
+    width: 30%;
+    border-radius: 7PX;
+    cursor: pointer;
+
+}
+
+
+.btn:hover{
+    background: none;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.fp a{
+    color: orange;
+    font-family: cursive;
+}
+
+.fp{
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+
+}
+
+.fp a:hover{
+    color: grey;
+    text-decoration: none;
+}
+.ftr{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    font-weight: bold;
+}
+
